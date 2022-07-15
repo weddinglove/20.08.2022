@@ -1,0 +1,363 @@
+@font-face {
+  font-family: 'Marianna';
+  src: url(fonts/Marianna.ttf);
+}
+@font-face {
+  font-family: 'Caravan';
+  src: url(fonts/Betmo\ RUS.otf);
+}
+body {
+    color: #242323;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    overflow: scroll;
+    cursor: default;
+    width: 100%;
+    max-width: 980px;
+    background-image: url(img/background.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    z-index: auto;
+} 
+.main-date{
+    position: relative;
+    padding: 0;
+    margin: 0;
+    font-size: 4vw;
+    font-family: 'Alumni Sans', sans-serif;
+    letter-spacing: 1.7vw;
+    text-align: center;
+    font-weight: 800;
+    z-index: 3;
+} 
+.main-photo{
+    position: relative;
+    display:block;
+    margin: auto;
+    height: 90%;
+    width: 90%;
+    object-fit: cover; 
+    object-position: top center;
+    z-index: 7; 
+}
+.subtitle{
+    padding: 0;
+    margin: 0 2vh 0;
+    font-size: 4.5vw;
+    text-transform: uppercase;
+    font-family: 'Alumni Sans', sans-serif;
+    letter-spacing: 1.4vw;
+    text-align: center;
+}
+.main-title{
+    position: relative;
+    margin: 2vh;
+    padding: 1vw;
+    font-family: 'Caravan';
+    font-weight: 550;
+    color: #2b2929;
+    font-size: 14.5vw;
+    text-align: center;
+    background-size:auto;
+    z-index: 3;
+}
+
+.photo-1{
+    padding: 0;
+    margin:0;
+    max-width: 99%;
+    height: auto;
+    object-fit: cover;
+    position: absolute;
+    display : inline;
+    z-index: 1;
+}
+.information-title{
+    position: relative;
+    height: max-content;
+    padding: 0 0 2vh 0;
+    z-index: 3;
+}
+.time-title{  
+    position: relative;
+    margin: 1vh 0 0 0;
+    float: left;
+    font-size: 9vw;
+    font-family: 'Alumni Sans', sans-serif;
+    width: 20%;
+    height: auto;
+    text-align: center;
+    font-weight: 500;
+}
+.address-title{
+    margin: 0;
+    position: relative;
+    float: left;
+    display : inline;
+    font-size: 6.8vw;
+    font-family: 'Alumni Sans', sans-serif;
+    width: 80%;
+    text-align: center;
+    font-weight: 500;
+}
+.h3{
+    position: relative;
+    margin: 4.5vh 3vw 2vh 3vw;
+    font-family: 'Marianna';
+    font-size: 12.5vw;
+    font-weight: 100;
+    color: #363333;
+    letter-spacing: 0.2vw;
+    text-align: center;
+    line-height: 1;
+    z-index: 7;
+}
+.invite{
+    position: relative;
+    margin: 2.5vh 3vw 2vh 3vw;
+    padding: 0;
+    z-index: 7;
+}
+
+.text-invite{
+    position: relative;
+    font-size: 5.5vw;
+    font-family: 'Alumni Sans', sans-serif;
+    font-weight: 550;
+    letter-spacing: 0.6vw;
+    text-align: center;
+    z-index: 7;
+}
+.button-answer {
+    position: relative;
+    text-decoration: none;
+    padding: 1vh 5vw 1vh 5vw;
+    margin-bottom: 2vh;
+    max-width: 35%;
+    min-height: 10px;
+    max-height: 20%;
+    border-color: #524f4e;
+    border-radius: 8vw;
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: 7vw;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1vw;
+    font-weight: 550;
+    color: #524f4e;
+    background: white;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+    transition: .3s;
+    z-index: 7;
+  }
+  .button-answer:hover {
+    background:#d8bfd8;
+    box-shadow: 0 15px 20px #ede1ed;
+    color: white;
+    border-color: white;
+    transform: translateY(-7px);
+  }
+  .photo-2{
+    padding: 0;
+    margin: auto;
+    max-width: 50%;
+    height: 80%;
+    object-fit:contain;
+    position: absolute;
+    right: 0;
+    display : inline;
+    z-index: 1;
+  }
+  .photo-3{
+    margin: 1vh 0 0 0;
+    position: relative;
+    padding: 0;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    z-index: 7;
+  }
+  .dress{
+    position: relative;
+    margin: 2.5vh 3vw 3.8vh 3vw;
+    text-align: center;
+  }
+  .dress-code{
+    position: relative;
+    padding: 0;
+    margin: auto;
+    max-width: 15%;
+    height: auto;
+    object-fit: cover;
+    z-index: 7;
+  }
+  .photo-4{
+    position:absolute;
+    left: 0;
+    max-width: 40%;
+    height: 80%;
+    object-fit:contain;
+    z-index: 1;
+  }
+  .photo-5{
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 55%;
+    object-fit:contain;
+    z-index: 1;
+  }
+  .footer-title{
+    margin: 3vh 3vw 2vh 3vw;
+    position: relative;
+    font-family: 'Marianna';
+    font-size: 13vw;
+    font-weight: 550;
+    text-align: center;
+    color: #363333;
+    line-height: 1;
+    letter-spacing: 0.4vw;
+    z-index: 7;
+  }
+  .text-footer{
+    position: relative;
+    padding: 0;
+    margin: auto;
+    text-align: center;
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: 3vw;
+  }
+  .rings{
+    left: 44%;
+    position: relative;
+    padding: 0;
+    margin: auto;
+    width: 15%;
+    height: auto;
+    object-fit: cover;
+    z-index: 7;
+  }
+
+  .info{
+    position: relative;
+    text-align: center;
+    margin: 0 0 3vh 0;
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: 5vw;
+    line-height: 1;
+    z-index: 7;
+  }
+  .text-info{
+    margin: 0 0 0.5vh 0;
+  }
+  .phone-info{
+    text-decoration: none;
+    font-weight: 700;
+    color: rgb(230, 133, 186);
+  }
+  .name-info{
+    margin: 0;
+    letter-spacing: 0.5vw;
+  }
+  .h3-plan{
+    position: relative;
+    margin: 3vh 3vw 0 3vw;
+    font-family: 'Marianna';
+    font-size: 12.5vw;
+    font-weight: 100;
+    color: #363333;
+    letter-spacing: 0.2vw;
+    text-align: center;
+    line-height: 1;
+    z-index: 7;
+  }
+  .plan{
+    position: relative;
+    z-index: 7;
+  }
+  .stage{
+    margin: 3vh 0 2.5vh 0;
+    display: block;
+    position: relative;
+    text-align: center;
+    left: 37%;
+    width: 55%;
+    height: auto;
+    font-size: 10vw;
+    font-weight: 550;
+    font-family: 'Marianna';
+    border-radius: 5vw;
+    line-height: 1;
+    z-index: 7;
+  }
+  .stage1{
+    display: block;
+    position: relative;
+    text-align: center;
+    line-height: 0.7;
+    z-index: 7;
+  }
+  .desc{
+    position: relative;
+    margin: 0;
+    font-size: 5.5vw;
+    font-weight: 400;
+    font-family: 'Alumni Sans', sans-serif;
+  }
+  .icon1{
+    position: absolute;
+    top: 5%;
+    left: 9%;
+    padding: 0 1.5vw 0 2vw;
+    width: 20%;
+    height: 15%;
+    object-fit: contain;
+    z-index: 7;
+  }
+  .icon2{
+    position: absolute;
+    left: 5%;
+    padding: 0 1.5vw 0 3vw;
+    width: 25%;
+    height: 20%;
+    object-fit: contain;
+    z-index: 7;
+  }
+  .icon3{
+    position: absolute;
+    left: 10.6%;
+    padding: 1vh 1.5vw 0 1.5vw;
+    width: 17%;
+    height: 17%;
+    object-fit: contain;
+    z-index: 7;
+  }
+  .icon4{
+    position: absolute;
+    left: 10%;
+    padding: 0 1.5vw 0 1.5vw;
+    width: 20%;
+    height: 20%;
+    object-fit: contain;
+    z-index: 7;
+  }
+  .icon5{
+    position: absolute;
+    left: 12.8%;
+    padding: 0.5vh 1.5vw 0 1.5vw;
+    width: 15%;
+    height: 15%;
+    object-fit: contain;
+    z-index: 7;
+  }
+  .more-inf{
+    font-size: 3.5vw;
+  }
+  .link{
+    text-decoration: none;
+    color: rgb(230, 133, 186);
+    font-weight: 700;
+  }
